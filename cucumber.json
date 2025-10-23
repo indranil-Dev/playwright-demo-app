@@ -1,0 +1,12 @@
+{
+  "default": {
+    "requireModule": ["ts-node/register"],
+    "require": ["e2e/steps/**/*.ts", "e2e/support/**/*.ts"],
+    "format": ["@cucumber/pretty-formatter"],
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "paths": ["e2e/features/"],
+    "publishQuiet": true
+  }
+}
